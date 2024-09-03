@@ -1,0 +1,42 @@
+{
+    "data":[
+        {
+            "fieldName":"First Name",
+            "fieldId":"firstName",
+            "fieldType":"input",
+            "fieldValues":""
+        },
+        {
+            "fieldName":"Address",
+            "fieldId":"address",
+            "fieldType":"textarea",
+            "fieldValues":""
+        },
+        {
+            "fieldName":"Sex",
+            "fieldId":"sex",
+            "fieldType":"dropdown",
+            "dropDownType":"single",
+            "fieldSelectedValue":{"label":"Male","value":"male"},
+            "fieldOptions":[{
+                "lable":"Male",
+                "value":"male"
+            },{
+                "lable":"Female",
+                "value":"feMale"
+            }]
+        },
+        {
+            "fieldName":"Indian Citizen",
+            "fieldId":"indianCitizen",
+            "fieldType":"checkbox",
+            "fieldValues":"",
+            "fieldSelectedValue":{"label":"Yes","value":true},
+            "fieldOptions":[{
+                "label":"Yes","value":false
+            },{
+                "label":"No","value":false
+            }]
+        }
+    ]
+}

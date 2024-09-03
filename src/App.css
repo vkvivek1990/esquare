@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.bgColor{
+  background-color: #282c34;
+ 
+}
+.header{
+  height: 80px;
+  background-color: #ffffff;
+}
+.headerTitle{
+  text-align: center;
+}
+.logo img{
+  width: 80px;
+}
+.footer{
+  height: 80px;
+  background-color: #ffffff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
